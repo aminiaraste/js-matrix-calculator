@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(135deg, #ffe6cc, #fff0e0);
+}
+
+.calculator {
+  max-width: 350px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.calc-btn {
+  width: 100%;
+  padding: 18px 0;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ffaa4c;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.calc-btn:hover {
+  background-color: #ff9933;
+}
+
+.operator {
+  background-color: #ff8040;
+}
+
+.operator:hover {
+  background-color: #e67300;
+}
+
+.equal {
+  background-color: #ff6600;
+}
+
+.equal:hover {
+  background-color: #cc5200;
+}
